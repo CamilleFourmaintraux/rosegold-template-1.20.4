@@ -23,6 +23,21 @@ public class ModItemsGroups {
 
                 entries.add(ModBlocks.ROSEGOLD_BLOCK);
 
+
+                entries.add(ModItems.ROSEGOLD_APPLE);
+                entries.add(ModItems.ROSEGOLD_CARROT);
+
+                entries.add(ModItems.ROSEGOLD_SWORD);
+                entries.add(ModItems.ROSEGOLD_PICKAXE);
+                entries.add(ModItems.ROSEGOLD_AXE);
+                entries.add(ModItems.ROSEGOLD_SHOVEL);
+                entries.add(ModItems.ROSEGOLD_HOE);
+
+                entries.add(ModItems.ROSEGOLD_HELMET);
+                entries.add(ModItems.ROSEGOLD_CHESTPLATE);
+                entries.add(ModItems.ROSEGOLD_LEGGINGS);
+                entries.add(ModItems.ROSEGOLD_BOOTS);
+
             }).build());
 
     public static void registerItemGroups(){

@@ -2,6 +2,22 @@
   "item.rosegold.rosegold_ingot": "Rosegold Ingot",
   "item.rosegold.rosegold_nugget": "Rosegold Nugget",
 
+  "item.rosegold.rosegold_apple": "Rosegold Apple",
+  "item.rosegold.rosegold_carrot": "Rosegold Carrot",
+
+
+  "item.rosegold.rosegold_sword": "Rosegold Sword",
+  "item.rosegold.rosegold_pickaxe": "Rosegold Pickaxe",
+  "item.rosegold.rosegold_axe": "Rosegold Axe",
+  "item.rosegold.rosegold_shovel": "Rosegold Shovel",
+  "item.rosegold.rosegold_hoe": "Rosegold Hoe",
+
+
+  "item.rosegold.rosegold_helmet": "Rosegold Helmet",
+  "item.rosegold.rosegold_chestplate": "Rosegold Chestplate",
+  "item.rosegold.rosegold_leggings": "Rosegold Leggings",
+  "item.rosegold.rosegold_boots": "Rosegold Boots",
+
   "block.rosegold.rosegold_block": "Rosegold Block",
 
   "itemgroup.rosegold_ingot": "Rosegold Mod"
