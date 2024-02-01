@@ -120,5 +120,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.ROSEGOLD_INGOT),conditionsFromItem(ModItems.ROSEGOLD_INGOT))
                 .offerTo(exporter, new Identifier("rosegold_hoe_right"));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSEGOLD_HELMET, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .input('R', ModItems.ROSEGOLD_INGOT)
+                .criterion(hasItem(ModItems.ROSEGOLD_INGOT),conditionsFromItem(ModItems.ROSEGOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSEGOLD_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSEGOLD_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.ROSEGOLD_INGOT)
+                .criterion(hasItem(ModItems.ROSEGOLD_INGOT),conditionsFromItem(ModItems.ROSEGOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSEGOLD_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSEGOLD_LEGGINGS, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ROSEGOLD_INGOT)
+                .criterion(hasItem(ModItems.ROSEGOLD_INGOT),conditionsFromItem(ModItems.ROSEGOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSEGOLD_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSEGOLD_BOOTS, 1)
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ROSEGOLD_INGOT)
+                .criterion(hasItem(ModItems.ROSEGOLD_INGOT),conditionsFromItem(ModItems.ROSEGOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSEGOLD_BOOTS)));
     }
 }

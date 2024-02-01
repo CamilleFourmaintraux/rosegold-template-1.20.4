@@ -4,14 +4,13 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.grotacam.rosegold.Rosegold;
+import net.grotacam.rosegold.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
 
     public static final Item ROSEGOLD_INGOT = registerItem("rosegold_ingot", new Item(new FabricItemSettings()));
     public static final Item ROSEGOLD_NUGGET = registerItem("rosegold_nugget", new Item(new FabricItemSettings()));
@@ -27,18 +26,18 @@ public class ModItems {
     public static final Item ROSEGOLD_SWORD = registerItem("rosegold_sword",
             new SwordItem(ModToolMaterial.ROSEGOLD, 3, -2.4f, new FabricItemSettings()));
    public static final Item ROSEGOLD_PICKAXE = registerItem("rosegold_pickaxe",
-            new PickaxeItem(ModToolMaterial.ROSEGOLD, 1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.ROSEGOLD, 2, -2.8f, new FabricItemSettings()));
     public static final Item ROSEGOLD_AXE = registerItem("rosegold_axe",
             new AxeItem(ModToolMaterial.ROSEGOLD, 6, -3.0f, new FabricItemSettings()));
     public static final Item ROSEGOLD_SHOVEL = registerItem("rosegold_shovel",
-            new ShovelItem(ModToolMaterial.ROSEGOLD, 1, -2.8f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.ROSEGOLD, 1, -2.4f, new FabricItemSettings()));
     public static final Item ROSEGOLD_HOE = registerItem("rosegold_hoe",
-            new HoeItem(ModToolMaterial.ROSEGOLD, 0, -2.8f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.ROSEGOLD, 0, -2f, new FabricItemSettings()));
 
 
     //ARMOR
     public static final Item ROSEGOLD_HELMET= registerItem("rosegold_helmet",
-            new ArmorItem(ModArmorMaterials.ROSEGOLD, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.ROSEGOLD, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item ROSEGOLD_CHESTPLATE = registerItem("rosegold_chestplate",
             new ArmorItem(ModArmorMaterials.ROSEGOLD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));

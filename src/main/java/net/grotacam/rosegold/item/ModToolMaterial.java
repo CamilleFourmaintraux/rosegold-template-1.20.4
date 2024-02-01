@@ -4,13 +4,13 @@ import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ROSEGOLD(MiningLevels.STONE, 230, 11.0f, 1.0f, 20,
+    ROSEGOLD(MiningLevels.IRON, 240, 11.0f, 1.0f, 20,
             () -> Ingredient.ofItems(ModItems.ROSEGOLD_INGOT))
-
     ;
 
 

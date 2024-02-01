@@ -13,7 +13,7 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ROSEGOLD("rosegold", 12, new int[]{2,4,5,2},21, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0, 0, () -> Ingredient.ofItems(ModItems.ROSEGOLD_INGOT))
+    ROSEGOLD("rosegold", 15, new int[]{2,4,5,2},21, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0, 0, () -> Ingredient.ofItems(ModItems.ROSEGOLD_INGOT))
     ;
 
     private final String name;
